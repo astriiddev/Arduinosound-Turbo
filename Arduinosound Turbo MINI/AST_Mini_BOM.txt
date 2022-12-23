@@ -1,4 +1,4 @@
-This is the full version of the Arduinosound Turbo, complete with stereo sampling and analog preamp
+This is the mini version of the Arduinosound Turbo, without stereo sampling and an analog preamp
 
 ICs:
 Arduino Nano

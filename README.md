@@ -16,8 +16,9 @@ The arduino will need an external supply as the parallel port on the Amiga does 
 
 On the layout for an arduino nano, the order of pins D0 and D1 are swapped. This has already been accounted for in both the full module's layout as well as the mini module's layout. The arduino code assigns analog input A3 as the pin for the audio in; please keep this in mind when building your module.
 
-NOTE 2: The layout for the MINI is untested. It is based on the same principle as the full module and shouldn't have any issues. However, please let me know if there's any errors or mistakes in the mini layout.
-NOTE 3: both layouts assume header sockets for the nano are used to mount the nano. If you wish to solder the nano to the board, mount the resistors that appear underneath the nano to the back of the perfboard. You can add electrical tape or kapton tape to the soldered pads to prevent any possible short between the front-facing pads and the nano. If you use header sockets for the nano, the resistors can be mounted to the front of the perfboard underneath the nano without risk of the nano touching the resistors.
+NOTE 1: The layout for the MINI is untested. It is based on the same principle as the full module and shouldn't have any issues. However, please let me know if there's any errors or mistakes in the mini layout.
+
+NOTE 2: both layouts assume header sockets for the nano are used to mount the nano. If you wish to solder the nano to the board, mount the resistors that appear underneath the nano to the back of the perfboard. You can add electrical tape or kapton tape to the soldered pads to prevent any possible short between the front-facing pads and the nano. If you use header sockets for the nano, the resistors can be mounted to the front of the perfboard underneath the nano without risk of the nano touching the resistors.
 
 # Resources Used
 1.  Open Amiga Sampler by echolevel https://github.com/echolevel/open-amiga-sampler

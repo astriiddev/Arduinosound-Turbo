@@ -3,6 +3,8 @@ Arduino-based 8-bit sampler for Commodore Amiga and similar devices. The attache
 
 The full version of the sampler module has been tested and proven to be working on an Amiga 500 in both Technosound Turbo and OctaMED programs. The arduino is able to convert analog signals to 8-bit digital at even the max sample rate provided in Technosound Turbo: 32khz for stereo and 50khz for mono.
 
+In order to improve speed of the Arduino's ADC and not waste clock cycles, the code has been kept minimal, utilizing interrupt requests, port manipulation, and low level programming to work around the Arduino's default 10-bit 9.6khz sample rate.
+
 Be sure to power the module and plug it into the parallel port BEFORE powering on the Amiga. I am not responsible for any damages done to your Amiga, parallel port, or 8520 CIA chip.
 
 # The Circuitry
@@ -15,7 +17,7 @@ The arduino will need an external supply as the parallel port on the Amiga does 
 NOTE 1: The layout for the MINI is untested. It is based on the same principle as the full module and shouldn't have any issues. However, please let me know if there's any errors or mistakes in the mini layout.
 
 # Resources Used
-1. Open Amiga Sampler by echolevel https://github.com/echolevel/open-amiga-sampler
-2. Arduino Fast(er) Sampling Rate by Wildan S. Nahar https://blog.wildan.us/2017/11/03/arduino-fast-er-sampling-rate/
-3. Technosound Turbo circuit board photos from Amiga Hardware Database http://amiga.resource.cx/exp/technosound
-4. ZN449e 8-bit Parallel ADC datasheet https://datasheetspdf.com/pdf-file/371755/ETC/ZN449E/1
+1.  Open Amiga Sampler by echolevel https://github.com/echolevel/open-amiga-sampler
+2.  Arduino Fast(er) Sampling Rate by Wildan S. Nahar https://blog.wildan.us/2017/11/03/arduino-fast-er-sampling-rate/
+3.  Technosound Turbo circuit board photos from Amiga Hardware Database http://amiga.resource.cx/exp/technosound
+4.  ZN449e 8-bit Parallel ADC datasheet https://datasheetspdf.com/pdf-file/371755/ETC/ZN449E/1

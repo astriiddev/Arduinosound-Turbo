@@ -23,5 +23,6 @@ NOTE 2: both layouts assume header sockets for the nano are used to mount the na
 # Resources Used
 1.  Open Amiga Sampler by echolevel https://github.com/echolevel/open-amiga-sampler
 2.  Arduino Fast(er) Sampling Rate by Wildan S. Nahar https://blog.wildan.us/2017/11/03/arduino-fast-er-sampling-rate/
-3.  Technosound Turbo circuit board photos from Amiga Hardware Database http://amiga.resource.cx/exp/technosound
-4.  ZN449e 8-bit Parallel ADC datasheet https://datasheetspdf.com/pdf-file/371755/ETC/ZN449E/1
+3.  analogRead() registers by garretlab https://garretlab.web.fc2.com/en/arduino/inside/hardware/arduino/avr/cores/arduino/wiring_analog.c/analogRead.html
+4.  Technosound Turbo circuit board photos from Amiga Hardware Database http://amiga.resource.cx/exp/technosound
+5.  ZN449e 8-bit Parallel ADC datasheet https://datasheetspdf.com/pdf-file/371755/ETC/ZN449E/1

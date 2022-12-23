@@ -21,3 +21,8 @@ Resistors:
 180K	2	
 3.9K	2	
 47Ω	1	
+
+Connectors:
+2.1mm DC barrel jack (for power) 1
+1/4" phono jack or RCA jack (for audio input) 2
+DB25 male (for parallel port) 1

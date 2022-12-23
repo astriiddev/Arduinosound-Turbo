@@ -1,0 +1,23 @@
+This is the full version of the Arduinosound Turbo, complete with stereo sampling and analog preamp
+
+ICs:
+LM1458
+CD4066
+Arduino Nano
+
+Capacitors:
+10uF	3	
+220nF	2	
+2.2uF	2	
+100nF	2	
+1.8nF	2	
+1.5nF	1	
+
+Resistors:
+100K	6	
+220Ω	8	
+22K	2	
+4.7K	4	
+180K	2	
+3.9K	2	
+47Ω	1	

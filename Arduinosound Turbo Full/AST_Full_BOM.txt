@@ -6,21 +6,21 @@ CD4066
 Arduino Nano
 
 Capacitors:
-10uF	3	
-220nF	2	
+10uF	5
 2.2uF	2	
 100nF	2	
-1.8nF	2	
+10nF	2	
 1.5nF	1	
 
 Resistors:
 100K	6	
 220Ω	8	
-22K	2	
-4.7K	4	
+22K	  2	
+4.7K	2	
 180K	2	
 3.9K	2	
-47Ω	1	
+1k    1
+47Ω	  1	
 
 Connectors:
 2.1mm DC barrel jack (for power) 1

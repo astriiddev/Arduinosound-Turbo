@@ -4,8 +4,7 @@ ICs:
 Arduino Nano
 
 Capacitors:
-220nF	1	
-10uF	1	
+10uF	2
 
 Resistors:
 220Ω	8	
